@@ -8,12 +8,6 @@ import java.util.Comparator;
 import java.util.HashMap;
 import java.util.PriorityQueue;
 
-
-//things to do : change radius, color, speed, move in a nonlinear fashion, etc.
-//encode with an image
-//have the ball not instantly break some bricks
-//might have to change gamobject to double instaed of int
-//change speeds maybe, for now keep it fast since I need to quickly test
 public class Ball extends  GameObject{
     private double dX, dY;
     private boolean top;
